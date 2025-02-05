@@ -1,0 +1,135 @@
+body {
+    font-family: sans-serif;
+}
+
+.container {
+    width: 70%;
+    margin: auto;
+    background-color: rgba(43, 255, 0, 0.271);
+    padding: 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.container .inputContent label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.container .inputContent input {
+    margin-bottom: 10px;
+    padding: 10px;
+    width: calc(100% - 30px);
+    border: none;
+    outline: none;
+    border: 1px solid #eee;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.container>input {
+    width: calc(100% - 10px);
+    padding: 10px;
+    margin: 10px 0px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    outline: none;
+    border: none;
+    border: 1px solid #eee;
+}
+
+table {
+    width: 100%;
+
+}
+
+table thead th {
+    background-color: #eee;
+    padding: 10px;
+    border: 1px solid #eee;
+}
+
+table tbody tr td {
+    padding: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.605);
+    background-color: rgba(255, 255, 255, 0.605);
+    text-align: center;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+}
+
+table tbody tr td:hover {
+    background-color: rgba(255, 255, 255, 0.251);
+}
+
+.add {
+    width: 100%;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    padding: 10px;
+    background-color: rgb(0, 255, 136);
+    margin: 10px 0px;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+}
+
+.add:hover {
+    background-color: rgba(0, 255, 136, 0.484);
+}
+
+td button {
+    padding: 5px;
+    border: none;
+    background-color: green;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+}
+
+td button:hover {
+    background-color: greenyellow;
+}
+
+td button:last-of-type {
+    background-color: red;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+}
+
+td button:last-of-type:hover {
+    background-color: rgba(183, 10, 10, 0.877);
+}

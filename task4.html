@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Learn JavaScript</title>
+    <link rel="stylesheet" href="task4.css">
+</head>
+
+<body>
+
+
+    <div class="container">
+        <div class="inputContent">
+            <label for="productName">Product Name :</label>
+            <input oninput="validationName()" type="text" id="productName" placeholder="Enter Product Name">
+            <span id="hent"></span>
+        </div>
+        <div class="inputContent">
+            <label for="productPrice">Product Price :</label>
+            <input type="text" oninput="validationPrice()" id="productPrice" placeholder="Enter Product Price">
+            <span id="hentPrice"></span>
+        </div>
+        <div class="inputContent">
+            <label for="productCategory">Product Category :</label>
+            <input type="text" oninput="validationCategory()" id="productCategory" placeholder="Enter Product Category">
+            <span id="hentCategort"></span>
+        </div>
+        <div class="inputContent">
+            <label for="productDescription">Product Description :</label>
+            <input type="text" oninput="validationDescription()" id="productDescription" placeholder="Enter Product Description">
+            <span id="hentDesc"></span>
+        </div>
+        <button class="add" onclick="addProduct()">Add Product</button>
+        <input type="search" id="searchInput" placeholder="Please Enter Your Search">
+        <table>
+            <thead>
+                <th>Id</th>
+                <th>Product Name</th>
+                <th>Product Price</th>
+                <th>Product Category</th>
+                <th>Product Description</th>
+                <th>Action</th>
+            </thead>
+            <tbody id="producTtable">
+
+            </tbody>
+        </table>
+    </div>
+
+
+
+    <script src="task4.js"></script>
+</body>
+
+</html>
